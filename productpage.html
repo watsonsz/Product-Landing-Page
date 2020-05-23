@@ -4,37 +4,40 @@
         <link rel="stylesheet" type="text/css" href="productcss.css">
     </head>
     <body>
+           
+                <header id="header" class="navbar">
+                <img id="header-img" src="logo.jpg" alt="Langenkamp Leather Logo">
+                    <nav id="navbar">
+                        <ul>
+                            <li><a href="#Handmade" class="nav-link"> Handmade Goods </a></li>
+                            <li><a href="#Commissions Welcome" class="nav-link"> Commissions </a></li>
+                            <li><a href="#Connect" class="nav-link"> Facebook </a></li>
+                        </ul>
+                    </nav>
+                </header>
+            
+            <div id="content" class="content">
+                <h2 id="#Handmade"> Handmade Goods </h2>
+                <p> Langenkamp Leather products are made by one person: Me! Every single item you purchase has been meticulously hand-crafted
+                    to make a functional and good-looking addition to your home or EDC (everyday carry).</p>
+                <h2 id="#Commissions">Commissions Welcome</h2>
+                <p> Want to have something specific made just for you? Submit your email down below and I will get back with you as soon
+                    as I am able</p>
+                <form id="form">
+                    <label for="email"> Any Questions? Type your email to learn more!</label>
+                    <input id="email" type="email" required placeholder="Type your email here">
+                    <button id="submit" type="submit" url="https://www.freecodecamp.com/email-submit"> Submit <button>
+                </form>
+                <h2> A Brief Video about Leather Working</h2>
+                <iframe id="video" width="560" height="315" margin-left:"20vw" src="https://www.youtube.com/embed/_L79cspduyk" frameborder="0" 
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h2 id="#Connect"> </h2><p>Share your Langenkamp swag online on my facebook page <a href="https://www.facebook.com/LangenkampLeather"
+                    target="_blank">click here</a></p>
+
+            </div>
+        
     </body>
 </html>
-<!--User Story #1: My product landing page should have a header element with a corresponding id="header".
-
-User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo would 
-make a good image here.
-
-User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar".
-
-User Story #4: I can see at least three clickable elements inside the nav element, each with the class nav-link.
-
-User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
-
-User Story #6: I can watch an embedded product video with id="video".
-
-User Story #7: My landing page has a form element with a corresponding id="form".
-
-User Story #8: Within the form, there is an input field with id="email" where I can enter an email address.
-
-User Story #9: The #email input field should have placeholder text to let the user know what the field is for.
-
-User Story #10: The #email input field uses HTML5 validation to confirm that the entered text is an email address.
-
-User Story #11: Within the form, there is a submit input with a corresponding id="submit".
-
-User Story #12: When I click the #submit element, the email is submitted to a static page 
-(use this mock URL: https://www.freecodecamp.com/email-submit).
-
-User Story #13: The navbar should always be at the top of the viewport.
-
-User Story #14: My product landing page should have at least one media query.
-
-User Story #15: My product landing page should utilize CSS flexbox at least once. 
+<!--User Story User Story #14: My product landing page should have at least one media query.
+. still need to fix nav bar, both stickiness and navigation
 -->
