@@ -1,11 +1,24 @@
 //CSS page for product page
-//#header-img{border-style:solid; border-color:black; border-width:5px;}
-//.content{margin-top:100px; margin-left: 30vw;}
-header {display: flex; flex-direction: row; justify-content: space-around; border-style:solid; border-color:black; border-width:2px;}
-ul     {display: flex; flex-direction: row; justify-content: space-around;}
-li     {list-style:none; padding-left: 2vw; padding-right: 2vw;}
+//ul     {display: flex; flex-direction: row; justify-content: space-around;}
+//li     {list-style:none; padding-left: 2vw; padding-right: 2vw;}
+@media (max-width:300px) {
+    #content {text-align:center; background-color:white; color:black; font-family:monospace;}
+}
 a       {color: #000; text-decoration: none;}
-#content {align-text:center ;margin-left:20vw;margin-right:20vw; margin-top:50px; padding: 5px 10px 5px 10px; background-color:#000000; 
-color:whitesmoke;}
-#video{margin-left:10vw; background-color:#000000}
-.navbar {position:fixed, top:0; margin-left:20vw; margin-right:20vw; margin-top:0px;}
+#content {display: flex; flex-direction:column; justify-content: center;margin-left:18vw;margin-right:17.63vw; margin-top:70px; padding: 5px 10px 5px 10px;
+ background-image: url(marble.jpeg); color:whitesmoke; border-style:solid; border-color: gold; border-width:1px;border-radius: 5vw;}
+//#video{margin-left:10vw; color:#000000}
+header {display: flex; flex-direction: row; justify-content: space-around; border-style:solid; border-color:black; 
+        border-width:2px;position:fixed; top:0; margin-left:20.5vw; margin-right: 15vw;}
+ul     {display: flex; flex-direction: row; justify-content: space-around;}
+li     {list-style:none; padding-left: 2vw; padding-right: 3vw;}
+.navbar {background-color:white;}
+.content {text-align: center;}
+footer {display: flex; flex-direction:column; justify-content: center;margin-left:18vw;margin-right:17.63vw; margin-top:5px;
+        padding: 5px 10px 5px 10px; background-image:url(marble.jpeg); color:whitesmoke; border-style:solid; border-color: gold; 
+        border-width:1px;border-radius: 5vw;}
+.facebook {color:floralwhite;text-decoration:crimson}
+body { background-image: url("texture.jpg");
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;}
