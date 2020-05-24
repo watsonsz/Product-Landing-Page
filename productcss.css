@@ -1,6 +1,9 @@
 //CSS page for product page
 //ul     {display: flex; flex-direction: row; justify-content: space-around;}
 //li     {list-style:none; padding-left: 2vw; padding-right: 2vw;}
+@media (max-width:300px) {
+    #content {text-align:center; background-color:white; color:black; font-family:monospace;}
+}
 a       {color: #000; text-decoration: none;}
 #content {display: flex; flex-direction:column; justify-content: center;margin-left:18vw;margin-right:17.63vw; margin-top:70px; padding: 5px 10px 5px 10px;
  background-image: url(marble.jpeg); color:whitesmoke; border-style:solid; border-color: gold; border-width:1px;border-radius: 5vw;}
